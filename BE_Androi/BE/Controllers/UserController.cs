@@ -59,7 +59,7 @@ namespace BE.Controllers
             };
 
             await _UsersService.Register(newUser);
-            return Ok("User registered successfully.");
+            return Ok(new { message = "User registered successfully." });
         }
 
         private string GenerateJSONWebToken(User systemUser)
