@@ -1,4 +1,5 @@
 using System.Text;
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -61,6 +62,13 @@ builder.Services.AddSwaggerGen(option =>
 });
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    // Remove ReferenceHandler.Preserve if there are no circular references
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;  // Handles circular references more appropriately
+    options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.Never; // Always serialize properties (optional)
+    options.JsonSerializerOptions.MaxDepth = 32;  // Optional: Adjust max depth to avoid deep recursion errors if needed
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
