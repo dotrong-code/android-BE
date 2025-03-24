@@ -1,0 +1,14 @@
+G:\PRM392\BE_Androi\Repositories\bin\Debug\net8.0\Repositories.deps.json
+G:\PRM392\BE_Androi\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
+G:\PRM392\BE_Androi\Repositories\bin\Debug\net8.0\Repositories.dll
+G:\PRM392\BE_Androi\Repositories\bin\Debug\net8.0\Repositories.pdb
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\Repositories.dll
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\Repositories.pdb
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+G:\PRM392\BE_Androi\Repositories\obj\Debug\net8.0\ref\Repositories.dll
