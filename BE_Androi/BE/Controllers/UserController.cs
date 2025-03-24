@@ -33,7 +33,7 @@ namespace BE.Controllers
                 return Unauthorized();
 
             var token = GenerateJSONWebToken(user);
-            return Ok(token);
+            return Ok(new { token = token });
         }
 
         [HttpPost("Register")]
