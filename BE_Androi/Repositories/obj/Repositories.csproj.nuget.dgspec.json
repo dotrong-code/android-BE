@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\PRM392\\BE_Androi\\Repositories\\Repositories.csproj": {}
+    "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "G:\\PRM392\\BE_Androi\\Repositories\\Repositories.csproj": {
+    "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\PRM392\\BE_Androi\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "G:\\PRM392\\BE_Androi\\Repositories\\Repositories.csproj",
+        "projectPath": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\dotro\\.nuget\\packages\\",
-        "outputPath": "G:\\PRM392\\BE_Androi\\Repositories\\obj\\",
+        "outputPath": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
