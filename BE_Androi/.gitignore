@@ -49,3 +49,12 @@ Debug/
 
 # Exception: Do not ignore specific .vs subdirectories
 !.vs/ProjectEvaluation/
+
+
+# Ignore all obj/Debug/ files
+obj/
+bin/
+[Dd]ebug/
+
+# Allow Repositories.AssemblyInfo.cs inside obj/Debug/net8.0/
+!Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
