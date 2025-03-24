@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kNPfETUK8IE=",
+  "dgSpecHash": "JIQJzOSWyDI=",
   "success": true,
-  "projectFilePath": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\Services.csproj",
+  "projectFilePath": "G:\\PRM392\\BE_Androi\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dotro\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dotro\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

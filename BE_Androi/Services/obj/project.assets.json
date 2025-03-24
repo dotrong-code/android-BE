@@ -3004,11 +3004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\Services.csproj",
+      "projectUniqueName": "G:\\PRM392\\BE_Androi\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\Services.csproj",
+      "projectPath": "G:\\PRM392\\BE_Androi\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\dotro\\.nuget\\packages\\",
-      "outputPath": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\obj\\",
+      "outputPath": "G:\\PRM392\\BE_Androi\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3030,8 +3030,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Repositories.csproj": {
-              "projectPath": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Repositories.csproj"
+            "G:\\PRM392\\BE_Androi\\Repositories\\Repositories.csproj": {
+              "projectPath": "G:\\PRM392\\BE_Androi\\Repositories\\Repositories.csproj"
             }
           }
         }
