@@ -61,7 +61,7 @@ namespace Services
 
         public async Task<Product> GetProductByIdAsync(int id)
         {
-            return await _productRepository.GetByIdAsync(id);
+            return await _productRepository.GetByIdAsync2(id);
         }
         public async Task<List<Product>> GetAll()
         {

@@ -24,5 +24,10 @@ namespace Repositories
             var transactionList = await _context.Products.Include(t => t.Category).ToListAsync();
             return transactionList;
         }
+
+        public async Task<Product> GetByIdAsync2(int id)
+        {
+            return await _context.Products.Include(x => x.Category).FirstOrDefaultAsync(x => x.ProductId == id);
+        }
     }
 }

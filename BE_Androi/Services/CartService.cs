@@ -15,16 +15,19 @@ namespace Services
         Task<bool> UpdateCartItemQuantityAsync(int cartItemId, int quantity);
         Task<bool> RemoveCartItemAsync(int cartItemId);
         Task ClearCartAsync(int userId);
+        Task<List<CartItem>> GetCartItemList(string userName);
     }
     public class CartService : ICartService
     {
         private readonly CartRepository _cartRepository;
         private readonly CartItemRepository _cartItemRepository;
+        private readonly UserRepository _userRepository;
 
-        public CartService(CartRepository cartRepository, CartItemRepository cartItemRepository)
+        public CartService(CartRepository cartRepository, CartItemRepository cartItemRepository, UserRepository userRepository)
         {
             _cartRepository = cartRepository;
             _cartItemRepository = cartItemRepository;
+            _userRepository = userRepository;
         }
 
         public async Task<Cart> GetCartByUserIdAsync(int userId)
@@ -96,6 +99,14 @@ namespace Services
                 cart.TotalPrice = 0;
                 await _cartRepository.UpdateAsync(cart);
             }
+        }
+
+        public async Task<List<CartItem>> GetCartItemList(string userName)
+        {
+            var user = (await _userRepository.GetAllAsync()).FirstOrDefault(x => x.Username.Equals(userName));
+            int userId = user.UserId;
+            var check = (await _cartItemRepository.GetAllAsync2()).Where(x => x.Cart.UserId == userId).ToList();
+            return (List<CartItem>)check;
         }
     }
 }

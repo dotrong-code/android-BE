@@ -29,6 +29,27 @@ namespace BE.Controllers
                 return NotFound("Cart not found");
             return Ok(cart);
         }
+        [HttpGet("cartItems/{userName}")]
+        public async Task<IActionResult> GetCartItemList(string userName)
+        {
+            var cart = await _cartService.GetCartItemList(userName);
+            var res = cart.Select(x => MapToDTO(x)).ToList();
+            return Ok(res);
+
+        }
+        private CartItemListDTO MapToDTO(CartItem cartItem)
+        {
+            // Assuming Product is a navigation property in CartItem
+            return new CartItemListDTO
+            {
+                ProductId = cartItem.ProductId ?? 0, // Null-coalescing in case ProductId is nullable
+                ProductName = cartItem.Product?.ProductName
+                 ?? string.Empty, // Assuming Product has Name property
+                Price = (double)cartItem.Price, // Convert from decimal to double
+                Quantity = cartItem.Quantity,
+                ProductImage = cartItem.Product?.ImageUrl ?? string.Empty // Assuming Product has ImageUrl property
+            };
+        }
 
         // Cập nhật số lượng sản phẩm trong giỏ
         [HttpPut("UpdateQuantity")]
@@ -94,7 +115,20 @@ namespace BE.Controllers
             return Ok("Product added to cart successfully");
         }
 
-        public sealed record AddToCartRequest(int UserId, int ProductId, int Quantity);
+        public class AddToCartRequest
+        {
+            public int ProductId { get; set; }
+            public int Quantity { get; set; }
+            public int UserId { get; set; }
+        }
+        public class CartItemListDTO
+        {
+            public int ProductId { get; set; }
+            public string ProductName { get; set; }
+            public double Price { get; set; }
+            public int Quantity { get; set; }
+            public string ProductImage { get; set; }
+        }
         public sealed record UpdateCartRequest(int CartItemId, int Quantity);
     }
 }
