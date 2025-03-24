@@ -1,6 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -79,6 +80,21 @@ namespace BE.Controllers
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        [Authorize]
+        [HttpGet("GetUser")]
+        public IActionResult GetUser()
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            if (identity == null || !identity.IsAuthenticated)
+                return Unauthorized("Invalid token or user not authenticated.");
+
+            var claims = identity.Claims;
+            var username = claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+            var role = claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+
+            return Ok(new { Username = username, Role = role });
         }
 
         public sealed record LoginRequest(string Username, string PasswordHash);
