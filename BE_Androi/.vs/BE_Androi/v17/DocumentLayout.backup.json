@@ -7,6 +7,30 @@
       "RelativeMoniker": "D:0:0:{5B159D7F-2D1D-4A81-9425-AA3C73F2F423}|BE\\BE.csproj|solutionrelative:be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B159D7F-2D1D-4A81-9425-AA3C73F2F423}|BE\\BE.csproj|g:\\prm392-be\\android-be\\be_androi\\be\\controllers\\storelocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B159D7F-2D1D-4A81-9425-AA3C73F2F423}|BE\\BE.csproj|solutionrelative:be\\controllers\\storelocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D44C627-5272-4274-8ACB-58F70D20715C}|Services\\Services.csproj|g:\\prm392-be\\android-be\\be_androi\\services\\storelocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D44C627-5272-4274-8ACB-58F70D20715C}|Services\\Services.csproj|solutionrelative:services\\storelocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\storelocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\storelocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\models\\storelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\storelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D44C627-5272-4274-8ACB-58F70D20715C}|Services\\Services.csproj|g:\\prm392-be\\android-be\\be_androi\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D44C627-5272-4274-8ACB-58F70D20715C}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B159D7F-2D1D-4A81-9425-AA3C73F2F423}|BE\\BE.csproj|g:\\prm392-be\\android-be\\be_androi\\be\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B159D7F-2D1D-4A81-9425-AA3C73F2F423}|BE\\BE.csproj|solutionrelative:be\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D44C627-5272-4274-8ACB-58F70D20715C}|Services\\Services.csproj|g:\\prm392-be\\android-be\\be_androi\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7D44C627-5272-4274-8ACB-58F70D20715C}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\models\\storelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\storelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -97,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BAA57EC-CDA6-4064-881D-99446A1C244E}|Repositories\\Repositories.csproj|g:\\prm392-be\\android-be\\be_androi\\repositories\\dbcontext\\salesappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,55 +150,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\NotificationService.cs",
-              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
-              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\NotificationService.cs",
-              "RelativeToolTip": "Services\\NotificationService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "StoreLocationRepository.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\StoreLocationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StoreLocationRepository.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\StoreLocationRepository.cs",
+              "RelativeToolTip": "Repositories\\StoreLocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T02:49:09.865Z"
+              "WhenOpened": "2025-03-24T06:17:52.617Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotificationRepository.cs",
-              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\NotificationRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\NotificationRepository.cs",
-              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\NotificationRepository.cs",
-              "RelativeToolTip": "Repositories\\NotificationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "StoreLocationService.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\StoreLocationService.cs",
+              "RelativeDocumentMoniker": "Services\\StoreLocationService.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\StoreLocationService.cs",
+              "RelativeToolTip": "Services\\StoreLocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T02:48:47.31Z"
+              "WhenOpened": "2025-03-24T06:17:44.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "BE\\Controllers\\CartController.cs",
-              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Controllers\\CartController.cs",
-              "RelativeToolTip": "BE\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAuwFsAAABbAAAAAAAAAA==",
+              "Title": "StoreLocationController.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Controllers\\StoreLocationController.cs",
+              "RelativeDocumentMoniker": "BE\\Controllers\\StoreLocationController.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Controllers\\StoreLocationController.cs",
+              "RelativeToolTip": "BE\\Controllers\\StoreLocationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T02:34:16.797Z"
+              "WhenOpened": "2025-03-24T06:17:34.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CartItemRepository.cs",
-              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\CartItemRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CartItemRepository.cs",
-              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\CartItemRepository.cs",
-              "RelativeToolTip": "Repositories\\CartItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T02:32:13.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "CartService.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\CartService.cs",
               "RelativeDocumentMoniker": "Services\\CartService.cs",
@@ -198,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
@@ -210,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "UserService.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
@@ -222,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Cart.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\Cart.cs",
@@ -240,14 +243,14 @@
               "RelativeDocumentMoniker": "BE\\Program.cs",
               "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Program.cs",
               "RelativeToolTip": "BE\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T16:23:45.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "UserController.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BE\\Controllers\\UserController.cs",
@@ -259,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -271,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Notification.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\Notification.cs",
@@ -283,7 +286,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "StoreLocation.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\StoreLocation.cs",
+              "RelativeDocumentMoniker": "Repositories\\Models\\StoreLocation.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\StoreLocation.cs",
+              "RelativeToolTip": "Repositories\\Models\\StoreLocation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:47:35.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartItemRepository.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\CartItemRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CartItemRepository.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\CartItemRepository.cs",
+              "RelativeToolTip": "Repositories\\CartItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T02:32:13.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Product.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\Product.cs",
@@ -295,7 +323,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "Repositories\\Models\\ChatMessage.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "Repositories\\Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:48:21.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Services.csproj",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\Services.csproj",
               "RelativeDocumentMoniker": "Services\\Services.csproj",
@@ -303,11 +344,48 @@
               "RelativeToolTip": "Services\\Services.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-23T16:18:46.778Z"
+              "WhenOpened": "2025-03-23T16:18:46.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "BE\\Controllers\\CartController.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Controllers\\CartController.cs",
+              "RelativeToolTip": "BE\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAuwFsAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T02:34:16.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\NotificationRepository.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "Repositories\\NotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T02:48:47.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
+              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Services\\NotificationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T02:49:09.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\CartRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CartRepository.cs",
@@ -319,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CartItem.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\CartItem.cs",
@@ -331,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ProductController.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "BE\\Controllers\\ProductController.cs",
@@ -343,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ProductService.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
@@ -355,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Base\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Base\\GenericRepository.cs",
@@ -367,19 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StoreLocation.cs",
-              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\StoreLocation.cs",
-              "RelativeDocumentMoniker": "Repositories\\Models\\StoreLocation.cs",
-              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\StoreLocation.cs",
-              "RelativeToolTip": "Repositories\\Models\\StoreLocation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:47:35.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Category.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\Category.cs",
@@ -391,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "User.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\User.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\User.cs",
@@ -403,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Order.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\Order.cs",
@@ -415,19 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ChatMessage.cs",
-              "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\ChatMessage.cs",
-              "RelativeDocumentMoniker": "Repositories\\Models\\ChatMessage.cs",
-              "ToolTip": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\ChatMessage.cs",
-              "RelativeToolTip": "Repositories\\Models\\ChatMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:48:21.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Payment.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\Payment.cs",
@@ -439,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "SalesAppDBContext.cs",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\Repositories\\DBContext\\SalesAppDBContext.cs",
               "RelativeDocumentMoniker": "Repositories\\DBContext\\SalesAppDBContext.cs",
@@ -451,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\PRM392-BE\\android-BE\\BE_Androi\\BE\\appsettings.json",
               "RelativeDocumentMoniker": "BE\\appsettings.json",
