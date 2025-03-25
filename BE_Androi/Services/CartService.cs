@@ -14,7 +14,7 @@ namespace Services
         Task AddToCartAsync(string userName, CartItem cartItem);
         Task<bool> UpdateCartItemQuantityAsync(int cartItemId, int quantity);
         Task<bool> RemoveCartItemAsync(int cartItemId);
-        Task ClearCartAsync(int userId);
+        Task ClearCartAsync(string userName);
         Task<List<CartItem>> GetCartItemList(string userName);
     }
     public class CartService : ICartService
@@ -93,8 +93,14 @@ namespace Services
             return true;
         }
 
-        public async Task ClearCartAsync(int userId)
+        public async Task ClearCartAsync(string userName)
         {
+            var user = (await _userRepository.GetAllAsync()).FirstOrDefault(x => x.Username.Equals(userName));
+            if (user == null)
+            {
+                throw new Exception();
+            }
+            int userId = user.UserId;
             var cart = await _cartRepository.GetCartByUserIdAsync(userId);
             if (cart != null)
             {

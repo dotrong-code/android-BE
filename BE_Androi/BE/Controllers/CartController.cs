@@ -42,6 +42,7 @@ namespace BE.Controllers
             // Assuming Product is a navigation property in CartItem
             return new CartItemListDTO
             {
+                CartItemId = cartItem.CartItemId,
                 ProductId = cartItem.ProductId ?? 0, // Null-coalescing in case ProductId is nullable
                 ProductName = cartItem.Product?.ProductName
                  ?? string.Empty, // Assuming Product has Name property
@@ -72,10 +73,10 @@ namespace BE.Controllers
         }
 
         // Xóa toàn bộ giỏ hàng
-        [HttpDelete("ClearCart/{userId}")]
-        public async Task<IActionResult> ClearCart(int userId)
+        [HttpDelete("ClearCart/{userName}")]
+        public async Task<IActionResult> ClearCart(string userName)
         {
-            await _cartService.ClearCartAsync(userId);
+            await _cartService.ClearCartAsync(userName);
             return Ok("Cart cleared successfully");
         }
 
@@ -123,6 +124,7 @@ namespace BE.Controllers
         }
         public class CartItemListDTO
         {
+            public int CartItemId { get; set; }
             public int ProductId { get; set; }
             public string ProductName { get; set; }
             public double Price { get; set; }

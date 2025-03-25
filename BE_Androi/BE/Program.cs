@@ -8,6 +8,10 @@ using Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ICartService, CartService>();
+
+builder.Services.AddScoped<IStoreLocationService, StoreLocationService>();
+builder.Services.AddScoped<StoreLocationRepository>();
+
 builder.Services.AddScoped<CartRepository>();
 builder.Services.AddScoped<CartItemRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
