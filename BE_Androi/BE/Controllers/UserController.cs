@@ -61,20 +61,6 @@ namespace BE.Controllers
             await _UsersService.Register(newUser);
             return Ok(new { message = "User registered successfully." });
         }
-        [Authorize]
-        [HttpGet("GetUser")]
-        public IActionResult GetUser()
-        {
-            var identity = HttpContext.User.Identity as ClaimsIdentity;
-            if (identity == null || !identity.IsAuthenticated)
-                return Unauthorized("Invalid token or user not authenticated.");
-
-            var claims = identity.Claims;
-            var username = claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
-            var role = claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
-
-            return Ok(new { Username = username, Role = role });
-        }
 
         private string GenerateJSONWebToken(User systemUser)
         {

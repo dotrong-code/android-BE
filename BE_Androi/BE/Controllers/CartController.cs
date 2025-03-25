@@ -105,12 +105,12 @@ namespace BE.Controllers
                 Price = product.Price
             };
 
-            await _cartService.AddToCartAsync(request.UserId, cartItem);
+            await _cartService.AddToCartAsync(request.UserName, cartItem);
 
             // Gửi thông báo khi thêm sản phẩm vào giỏ
-            var cart = await _cartService.GetCartByUserIdAsync(request.UserId);
-            var itemCount = cart.CartItems.Sum(item => item.Quantity);
-            await _notificationService.SendCartUpdateNotification(request.UserId, itemCount);
+            //var cart = await _cartService.GetCartByUserIdAsync(request.UserName);
+            //var itemCount = cart.CartItems.Sum(item => item.Quantity);
+            //await _notificationService.SendCartUpdateNotification(request.UserName, itemCount);
 
             return Ok("Product added to cart successfully");
         }
@@ -119,7 +119,7 @@ namespace BE.Controllers
         {
             public int ProductId { get; set; }
             public int Quantity { get; set; }
-            public int UserId { get; set; }
+            public string UserName { get; set; }
         }
         public class CartItemListDTO
         {
